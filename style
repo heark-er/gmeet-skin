@@ -1,0 +1,469 @@
+#workskin details > summary {
+  list-style: none;
+}
+
+#workskin details > summary::marker,
+#workskin details > summary::-webkit-details-marker {
+  display: none;
+}
+
+#workskin .gmeet * {
+  box-sizing: border-box;
+}
+
+#workskin .gmeet .container {
+  background: black;
+  color: white;
+  width: 800px;
+  position: relative;
+  height: 450px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#workskin .gmeet .top,
+#workskin .gmeet .middle,
+#workskin .gmeet .bottom {
+  width: 800px;
+}
+
+#workskin .gmeet .top {
+  background: black;
+  height: 12%;
+  display: flex;
+  flex: 1 0 auto;
+  justify-content: space-between;
+}
+
+#workskin .gmeet .middle {
+  background: black;
+  height: 73%;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+#workskin .gmeet .bottom {
+  background: black;
+  height: 15%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 10px;
+}
+
+#workskin img {
+  height: 20px;
+}
+
+#workskin .gmeet .present-bar {
+  border-radius: 0.5vw;
+}
+
+#workskin .gmeet .present-right,
+#workskin .gmeet .group-icon-container {
+  border-radius: 1.2vw;
+}
+
+#workskin .gmeet .present-bar {
+  width: 100%;
+  display: flex;
+  background: #3c3e40;
+  height: 60%;
+  align-self: center;
+  flex: 1 0 89%;
+  max-width: 100%;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 1.5%;
+}
+
+#workskin .gmeet .group-icon-container {
+  width: 100%;
+  display: flex;
+  background: #292a2c;
+  height: 55%;
+  align-self: center;
+  align-items: center;
+}
+
+#workskin .gmeet .stoppr,
+#workskin .gmeet .pr {
+  height: 75%;
+  width: auto;
+}
+
+#workskin .gmeet .present-left,
+#workskin .gmeet .present-right {
+  display: flex;
+  align-items: center;
+  height: 65%;
+  margin: 1.5%;
+}
+
+#workskin .gmeet .arrow {
+  height: 100%;
+  margin: 0 6%;
+}
+
+#workskin .gmeet .present-left {
+  padding: 0.5% 3% 0.5% 0;
+}
+
+#workskin .gmeet .present-right {
+  background: #a8c8fb;
+  padding: 0.5% 3%;
+}
+
+#workskin .gmeet .group-icon-container {
+  background: #292A2C;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 1%;
+  margin: 1.5%;
+}
+
+#workskin .gmeet .ppl {
+  height: 60%;
+  margin: 0 5%;
+}
+
+#workskin .gmeet .four {
+  height: 25%;
+}
+
+#workskin .gmeet .present-right:hover,
+#workskin .gmeet .group-icon-container:hover {
+  filter: brightness(90%);
+}
+
+#workskin .gmeet .tile,
+#workskin .gmeet .present {
+  border-radius: 0.6vw;
+}
+
+#workskin .gmeet .present {
+  background: black;
+  margin: 0 1.5%;
+  height: 100%;
+  width: 65%;
+  background-image: url("https://i.postimg.cc/qBYQVz7Z/screen2.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center bottom;
+}
+
+#workskin .gmeet .tiles {
+  background: black;
+  margin: 0 1.5% 0 0;
+  height: 100%;
+  width: 35%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+#workskin .gmeet .tile-top {
+  height: 48.5%;
+  width: 100%;
+  display: flex;
+}
+
+#workskin .gmeet .tile-bottom {
+  height: 48.5%;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+#workskin .gmeet .senku {
+  background-image: radial-gradient(#5C6748, #2C3519);
+  height: 100%;
+  width: 100%;
+}
+
+#workskin .gmeet .taiju {
+  background-image: radial-gradient(#70573B, #422F1D);
+}
+
+#workskin .gmeet .yuzu {
+  background-image: radial-gradient(#7D394B, #501C2B);
+}
+
+#workskin .gmeet .taiju,
+#workskin .gmeet .yuzu {
+  height: 100%;
+  width: 48.5%;
+}
+
+#workskin .gmeet .tile {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+#workskin .gmeet .senku.tile {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  height: 100%;
+  width: 100%;
+}
+
+#workskin .gmeet .name {
+  position: absolute;
+  bottom: 7%;
+  height: 6%;
+}
+
+#workskin .gmeet .smallmic {
+  position: absolute;
+  top: 3%;
+  height: 11%;
+  background: #2A3400;
+  padding: 1%;
+  border-radius: 50%;
+  right: 2%;
+}
+
+#workskin .gmeet .senku .name {
+  left: 11%;
+}
+
+#workskin .gmeet .taiju .name,
+#workskin .gmeet .yuzu .name {
+  left: 22%;
+}
+
+#workskin .gmeet .pfp {
+  height: 30%;
+  width: auto;
+}
+
+#workskin .gmeet .pin {
+  position: absolute;
+  bottom: 0;
+  height: 18%;
+  left: 0;
+}
+
+#workskin .gmeet .subtxt {
+  position: absolute;
+  display: none;
+  bottom: 0;
+  height: 30px;
+  width: auto;
+  background: black;
+  padding: 1%;
+  margin: auto;
+}
+
+#workskin .gmeet:has(.sub[open]) .subtxt {
+  display: block;
+}
+
+#workskin .gmeet .emojis {
+  position: absolute;
+  display: none;
+  bottom: -0.1%;
+  left: 35.6%;
+  height: 30px;
+  width: auto;
+}
+
+#workskin .gmeet:has(.smile[open]) .emojis {
+  display: block;
+}
+
+#workskin .gmeet .smallmic {
+  display: none;
+}
+
+#workskin .gmeet:has(.detmic[open]) .smallmic {
+  display: block;
+}
+
+#workskin .gmeet .code {
+  height: 13px;
+}
+
+#workskin .gmeet .bmiddle:has(.detmic[open]) .first.micicon,
+#workskin .gmeet .bmiddle:has(.detvid[open]) .first.vidicon,
+#workskin .gmeet .second.micicon,
+#workskin .gmeet .second.vidicon {
+  display: none;
+}
+
+#workskin .gmeet .bmiddle:has(.detmic[open]) .second.micicon,
+#workskin .gmeet .bmiddle:has(.detvid[open]) .second.vidicon {
+  display: inline-block;
+}
+
+#workskin .gmeet .detmic {
+  background: #333537;
+}
+
+#workskin .gmeet .detvid {
+  background: #F9DEDC;
+}
+
+#workskin .gmeet .arrmic {
+  background: #282A2C;
+}
+
+#workskin .gmeet .arrvid {
+  background: #601410;
+}
+
+#workskin .gmeet .doubleicon.vid:has(.detvid[open]) .arrvid,
+#workskin .gmeet .doubleicon.vid:has(.detvid[open]) {
+  background: #282A2C;
+}
+
+#workskin .gmeet .detvid[open] {
+  background: #333537;
+}
+
+#workskin .gmeet .doubleicon.mic:has(.detmic[open]) .arrmic,
+#workskin .gmeet .doubleicon.vid:has(.detvid[open]) {
+  background: #601410;
+}
+
+#workskin .gmeet .detmic[open] {
+  background: #F9DEDC;
+}
+
+#workskin .gmeet .doubleicon.mic {
+  background: #282A2C;
+}
+
+#workskin .gmeet .doubleicon.mic:has(.detmic[open]) {
+  background: #601410;
+}
+
+#workskin .gmeet .doubleicon.vid {
+  background: #601410;
+}
+
+#workskin .gmeet .doubleicon.vid:has(.detvid[open]) {
+  background: #282A2C;
+}
+
+#workskin .gmeet .presenticondiv {
+  background: #A8C7FA;
+}
+
+#workskin .gmeet .cuticondiv {
+  background: #DC362E;
+}
+
+#workskin .gmeet .smile,
+#workskin .gmeet .sub,
+#workskin .gmeet .hand,
+#workskin .gmeet .more {
+  background: #333537;
+}
+
+#workskin .gmeet .chat,
+#workskin .gmeet .info {
+  background: black;
+}
+
+#workskin .gmeet .smile[open],
+#workskin .gmeet .sub[open],
+#workskin .gmeet .hand[open],
+#workskin .gmeet .chat[open],
+#workskin .gmeet .info[open] {
+  background: #A8C7FA;
+}
+
+#workskin .gmeet .bmiddle > *:hover,
+#workskin .gmeet .bright > *:hover {
+  filter: brightness(90%);
+}
+
+#workskin .bottom img {
+  height: 15px;
+}
+
+#workskin .bottom > div > * {
+  margin: 2px;
+}
+
+#workskin .gmeet .doubleicon details,
+#workskin .gmeet .smile,
+#workskin .gmeet .sub,
+#workskin .gmeet .hand,
+#workskin .gmeet .more,
+#workskin .gmeet .chat,
+#workskin .gmeet .info,
+#workskin .gmeet .cuticondiv,
+#workskin .gmeet .presenticondiv {
+  padding: 9px 8px;
+  border-radius: 5px;
+}
+
+#workskin .gmeet .bottom summary,
+#workskin .gmeet .cuticondiv,
+#workskin .gmeet .presenticondiv {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#workskin .gmeet .doubleicon {
+  border-radius: 5px;
+}
+
+#workskin .gmeet .smile[open] .smileicon,
+#workskin .gmeet .sub[open] .subicon,
+#workskin .gmeet .hand[open] .handicon,
+#workskin .gmeet .chat[open] .chaticon,
+#workskin .gmeet .info[open] .infoicon {
+  filter: brightness(0) saturate(100%) invert(12%) sepia(91%) saturate(1853%) hue-rotate(208deg) brightness(95%) contrast(95%);
+}
+
+#workskin .gmeet .arrmic[open] .micarrow,
+#workskin .gmeet .arrvid[open] .vidarrow {
+  transform: rotate(180deg);
+}
+
+#workskin .gmeet .micarrow,
+#workskin .gmeet .vidarrow {
+  transition: transform 0.1s ease;
+}
+
+#workskin .gmeet .doubleicon details,
+#workskin .gmeet .smile,
+#workskin .gmeet .sub,
+#workskin .gmeet .hand,
+#workskin .gmeet .more,
+#workskin .gmeet .chat,
+#workskin .gmeet .info,
+#workskin .gmeet .cuticondiv,
+#workskin .gmeet .presenticondiv {
+  height: 50%;
+}
+
+#workskin .gmeet .doubleicon > details {
+  margin: 0;
+}
+
+#workskin .gmeet .vidarrow,
+#workskin .gmeet .micarrow {
+  height: 10px;
+  width: auto;
+}
+
+#workskin .gmeet .bmiddle,
+#workskin .gmeet .bright,
+#workskin .gmeet .doubleicon {
+  display: flex;
+  align-items: center;
+}
