@@ -1,3 +1,5 @@
+/* structure */
+
 #workskin details > summary {
   list-style: none;
 }
@@ -58,6 +60,8 @@
 #workskin img {
   height: 20px;
 }
+
+/* top */
 
 #workskin .gmeet .present-bar {
   border-radius: 0.5vw;
@@ -180,6 +184,8 @@
   justify-content: space-between;
 }
 
+/* middle */
+
 #workskin .gmeet .senku {
   background-image: radial-gradient(#5C6748, #2C3519);
   height: 100%;
@@ -288,6 +294,8 @@
 #workskin .gmeet:has(.detmic[open]) .smallmic {
   display: block;
 }
+
+/* bottom */
 
 #workskin .gmeet .code {
   height: 13px;
